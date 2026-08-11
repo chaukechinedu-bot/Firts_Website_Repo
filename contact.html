@@ -9,8 +9,40 @@
     <a href="index.html">Back to Home</a>
     <h1>Contact Us</h1>
 
+    
+    <!--Contact Form-->
+    <form name="Contact" id="contact"
+    method="post" action="/submit"
+    autocomplete="on"
+    <fieldset>
+    <legend>Contact Us</legend>
+
+    <!--Field to enter users name-->
+    <label for="name">Enter Your Name:</label>
+    <input type="text" id="name" name="name"
+    required maxlength="20">
+
+    <!--field to enter users email-->
+    <label for="email">Enter Your Email:</label>
+    <input type="email" id="email" name="email"
+    required>
+
+    <!--Field for drop down select an option-->
+    <label for="topic">Select your Topic:</label>
+    <select id="topic" name="topic">
+    <option value="support">Support</option>
+    <option value="support">Sales</option>
+    <option value="support">General Query</option>
+    </select>
+
+    </fieldset>
+    </form>
+
     <iframe src="https://share.google/cQjwf0Pch3jKnk8s7" 
-    frameborder="0"></iframe>
+    frameborder="0">
+    </iframe>
+
+
 
     <p>Contact Us
 
